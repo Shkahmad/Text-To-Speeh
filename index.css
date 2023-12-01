@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 .hero {
-  width: 100%;
   min-height: 100vh;
   background: linear-gradient(20deg, rgb(112, 117, 190), #000000);
   display: flex;
@@ -13,14 +12,7 @@
   justify-content: center;
   flex-direction: column;
 }
-select {
-  border: none;
-  outline: none;
-  font-size: 1rem;
 
-  padding: 10px 10px;
-  border-radius: 15px;
-}
 .hero > h1 {
   font-size: 5rem;
   font-weight: 500;
@@ -31,8 +23,6 @@ select {
 
 textarea {
   padding: 20px 10px 0 10px;
-  /* width: 600px; */
-  /* height: 250px; */
   background: #403d84;
   color: #fff;
   font-size: 15px;
@@ -46,12 +36,21 @@ textarea::placeholder {
   font-size: 1.5rem;
   color: #fff;
 }
+select {
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+
 .g_1 {
-  display: flex;
-  gap: 20px;
+  display: block;
 }
 
 button {
+  margin-top: 30px;
+  width: 100%;
   background: #ff2963;
   color: #fff;
   font-size: 1.5rem;
