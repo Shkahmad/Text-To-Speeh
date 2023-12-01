@@ -3,19 +3,40 @@
     width: 400px;
   }
   select {
-    font-size: .5rem;
+    padding: 10px;
+    font-size: 1rem;
   }
   button {
+    width: 100%;
+    margin-top: 20px;
     border-radius: 15px;
-    font-size: 0.7rem;
+    font-size: 1rem;
     padding: 10px 15px;
   }
   .hero > h1 {
     font-size: 2rem;
   }
+ .g_1{
+    display: block;
+ }
 }
 @media (max-width: 420px) {
+    .g_1{
+        text-align: center;
+     }
   textarea {
     width: 300px;
+  }
+  select {
+    padding: 10px;
+    width: 90%;
+    font-size: 1rem;
+  }
+  button {
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-size: 1rem;
+    padding: 10px 15px;
   }
 }
