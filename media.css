@@ -1,0 +1,21 @@
+@media (max-width: 576px) {
+  textarea {
+    width: 400px;
+  }
+  select {
+    font-size: 0.7rem;
+  }
+  button {
+    border-radius: 15px;
+    font-size: 0.7rem;
+    padding: 10px 15px;
+  }
+  .hero > h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 420px) {
+  textarea {
+    width: 300px;
+  }
+}
